@@ -1,9 +1,9 @@
 function mostFrequent(arr) {
-    var mf = 1;
-    var m = 0;
-    var item;
-    for (var i = 0; i < arr.length; i++) {
-      for (var j = i; j < arr.length; j++) {
+   let mf = 1;
+   let m = 0;
+   let item;
+    for (let i = 0; i < arr.length; i++) {
+      for (let j = i; j < arr.length; j++) {
         if (arr[i] == arr[j]) m++;
         if (mf < m) {
           mf = m;
